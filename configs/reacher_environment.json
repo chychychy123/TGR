@@ -1,0 +1,29 @@
+{
+  "world": {
+    "env_name": "swm/ReacherDMControl-v0",
+    "num_envs": 1,
+    "max_episode_steps": 100,
+    "task": "qpos_match"
+  },
+  "callables": [
+    {
+      "method": "set_state",
+      "args": {
+        "qpos": {
+          "value": "qpos"
+        },
+        "qvel": {
+          "value": "qvel"
+        }
+      }
+    },
+    {
+      "method": "set_target_qpos",
+      "args": {
+        "target_qpos": {
+          "value": "goal_qpos"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "world": {
+    "env_name": "swm/PushT-v1",
+    "num_envs": 1,
+    "max_episode_steps": 100
+  },
+  "callables": [
+    {
+      "method": "_set_state",
+      "args": {
+        "state": {
+          "value": "state"
+        }
+      }
+    },
+    {
+      "method": "_set_goal_state",
+      "args": {
+        "goal_state": {
+          "value": "goal_state"
+        }
+      }
+    }
+  ]
+}

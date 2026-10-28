@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "timestamp": 1792237392.8515806,
+  "episodes": 9728,
+  "target": 9728,
+  "physical_steps": 305024,
+  "roots_seen": 128,
+  "errors": [],
+  "scope": "S1 all saved trajectories with committed-prefix reconstruction, all5or9final candidate plans and original-branch plan checks: SHA/source/checkpoint identity, paired initial state/goal/image, independent success rule, solver-normalized to command reconstruction, candidate-incumbent inequality. Engineering replay covers only the pre-registered QA episode, not all control dynamics."
+}

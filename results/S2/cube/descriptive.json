@@ -1,0 +1,271 @@
+{
+  "dataset": "cube",
+  "source_manifest": {
+    "analysis_sha256": "76827589c02a422a7412e8eea8b884357abfa45bbb4e487f8e8ae52629e6f827",
+    "audit_sha256": "f94449774277ea250b190542765c6c4c9984a82fbecb67cd89ee590adbbbf6c0",
+    "rows_sha256": "c54c09462a5bd21228c9fdf16df7d2cff1bd41c2a7887a3c4531a36f07b588d7",
+    "split_sha256": "b3e9a5fd5f2d8e5d0b69de1d6804cc7138c599ef265688b94e64a9c043d748cd",
+    "timestamp": 1792251466.5745559
+  },
+  "table": [
+    {
+      "method": "refined_e0",
+      "groups": 128,
+      "paired_modes": 512,
+      "fine_helps": 19,
+      "fine_harms": 11,
+      "fine_same_success": 482,
+      "help_percent": 3.7109375,
+      "harm_percent": 2.1484375,
+      "net_pp": 1.5625,
+      "predicted_cost_vs_terminal_error_spearman_mean": 0.28751800869462313,
+      "spearman_defined_groups": 124,
+      "spearman_undefined_groups": 4,
+      "success_failure_candidate_pairs": 950,
+      "success_lower_cost_pair_fraction": 0.7673684210526316,
+      "selected_distance_mean": 0.9439082428026957,
+      "mean_planning_seconds": 0.9070295126193741,
+      "total_formal_commands": 14449,
+      "mean_predictions": 45045,
+      "cohorts": {
+        "A": {
+          "roots": 32,
+          "selected_success_percent": 82.8125,
+          "fine_minus_coarse_pp": 1.171875
+        },
+        "B": {
+          "roots": 32,
+          "selected_success_percent": 89.0625,
+          "fine_minus_coarse_pp": 1.953125
+        }
+      },
+      "per_head_planner": [
+        {
+          "head_seed": 0,
+          "planner_seed": 7701,
+          "selected_success_percent": 85.9375,
+          "fine_minus_coarse_pp": 3.125
+        },
+        {
+          "head_seed": 0,
+          "planner_seed": 7702,
+          "selected_success_percent": 85.9375,
+          "fine_minus_coarse_pp": 0.0
+        }
+      ]
+    },
+    {
+      "method": "refined_jev",
+      "groups": 384,
+      "paired_modes": 1536,
+      "fine_helps": 64,
+      "fine_harms": 45,
+      "fine_same_success": 1427,
+      "help_percent": 4.166666666666667,
+      "harm_percent": 2.9296875,
+      "net_pp": 1.2369791666666667,
+      "predicted_cost_vs_terminal_error_spearman_mean": 0.27947186017901243,
+      "spearman_defined_groups": 372,
+      "spearman_undefined_groups": 12,
+      "success_failure_candidate_pairs": 3068,
+      "success_lower_cost_pair_fraction": 0.8148631029986962,
+      "selected_distance_mean": 1.1454090166341444,
+      "mean_planning_seconds": 0.9022643157686616,
+      "total_formal_commands": 44376,
+      "mean_predictions": 45045,
+      "cohorts": {
+        "A": {
+          "roots": 32,
+          "selected_success_percent": 83.33333333333334,
+          "fine_minus_coarse_pp": 2.864583333333333
+        },
+        "B": {
+          "roots": 32,
+          "selected_success_percent": 87.5,
+          "fine_minus_coarse_pp": -0.390625
+        }
+      },
+      "per_head_planner": [
+        {
+          "head_seed": 2131,
+          "planner_seed": 7701,
+          "selected_success_percent": 85.9375,
+          "fine_minus_coarse_pp": 0.78125
+        },
+        {
+          "head_seed": 2131,
+          "planner_seed": 7702,
+          "selected_success_percent": 85.9375,
+          "fine_minus_coarse_pp": 0.78125
+        },
+        {
+          "head_seed": 2132,
+          "planner_seed": 7701,
+          "selected_success_percent": 84.375,
+          "fine_minus_coarse_pp": -0.78125
+        },
+        {
+          "head_seed": 2132,
+          "planner_seed": 7702,
+          "selected_success_percent": 84.375,
+          "fine_minus_coarse_pp": 2.734375
+        },
+        {
+          "head_seed": 2133,
+          "planner_seed": 7701,
+          "selected_success_percent": 87.5,
+          "fine_minus_coarse_pp": 1.5625
+        },
+        {
+          "head_seed": 2133,
+          "planner_seed": 7702,
+          "selected_success_percent": 84.375,
+          "fine_minus_coarse_pp": 2.34375
+        }
+      ]
+    },
+    {
+      "method": "refined_self",
+      "groups": 384,
+      "paired_modes": 1536,
+      "fine_helps": 59,
+      "fine_harms": 34,
+      "fine_same_success": 1443,
+      "help_percent": 3.8411458333333335,
+      "harm_percent": 2.2135416666666665,
+      "net_pp": 1.6276041666666667,
+      "predicted_cost_vs_terminal_error_spearman_mean": 0.2617818755231125,
+      "spearman_defined_groups": 370,
+      "spearman_undefined_groups": 14,
+      "success_failure_candidate_pairs": 2984,
+      "success_lower_cost_pair_fraction": 0.7677613941018767,
+      "selected_distance_mean": 1.0945119038391284,
+      "mean_planning_seconds": 0.8886340480938392,
+      "total_formal_commands": 43810,
+      "mean_predictions": 45045,
+      "cohorts": {
+        "A": {
+          "roots": 32,
+          "selected_success_percent": 78.125,
+          "fine_minus_coarse_pp": 1.5625
+        },
+        "B": {
+          "roots": 32,
+          "selected_success_percent": 88.54166666666666,
+          "fine_minus_coarse_pp": 1.6927083333333333
+        }
+      },
+      "per_head_planner": [
+        {
+          "head_seed": 2131,
+          "planner_seed": 7701,
+          "selected_success_percent": 82.8125,
+          "fine_minus_coarse_pp": 2.34375
+        },
+        {
+          "head_seed": 2131,
+          "planner_seed": 7702,
+          "selected_success_percent": 81.25,
+          "fine_minus_coarse_pp": 2.34375
+        },
+        {
+          "head_seed": 2132,
+          "planner_seed": 7701,
+          "selected_success_percent": 82.8125,
+          "fine_minus_coarse_pp": 1.171875
+        },
+        {
+          "head_seed": 2132,
+          "planner_seed": 7702,
+          "selected_success_percent": 84.375,
+          "fine_minus_coarse_pp": 1.953125
+        },
+        {
+          "head_seed": 2133,
+          "planner_seed": 7701,
+          "selected_success_percent": 84.375,
+          "fine_minus_coarse_pp": 1.171875
+        },
+        {
+          "head_seed": 2133,
+          "planner_seed": 7702,
+          "selected_success_percent": 84.375,
+          "fine_minus_coarse_pp": 0.78125
+        }
+      ]
+    },
+    {
+      "method": "refined_temporal",
+      "groups": 384,
+      "paired_modes": 1536,
+      "fine_helps": 45,
+      "fine_harms": 43,
+      "fine_same_success": 1448,
+      "help_percent": 2.9296875,
+      "harm_percent": 2.7994791666666665,
+      "net_pp": 0.13020833333333334,
+      "predicted_cost_vs_terminal_error_spearman_mean": 0.32919590844334434,
+      "spearman_defined_groups": 372,
+      "spearman_undefined_groups": 12,
+      "success_failure_candidate_pairs": 3218,
+      "success_lower_cost_pair_fraction": 0.8281541330018645,
+      "selected_distance_mean": 1.1263121073721185,
+      "mean_planning_seconds": 0.8940898928475084,
+      "total_formal_commands": 45034,
+      "mean_predictions": 45045,
+      "cohorts": {
+        "A": {
+          "roots": 32,
+          "selected_success_percent": 80.72916666666666,
+          "fine_minus_coarse_pp": -0.13020833333333331
+        },
+        "B": {
+          "roots": 32,
+          "selected_success_percent": 89.0625,
+          "fine_minus_coarse_pp": 0.390625
+        }
+      },
+      "per_head_planner": [
+        {
+          "head_seed": 2131,
+          "planner_seed": 7701,
+          "selected_success_percent": 84.375,
+          "fine_minus_coarse_pp": 0.0
+        },
+        {
+          "head_seed": 2131,
+          "planner_seed": 7702,
+          "selected_success_percent": 87.5,
+          "fine_minus_coarse_pp": 0.78125
+        },
+        {
+          "head_seed": 2132,
+          "planner_seed": 7701,
+          "selected_success_percent": 84.375,
+          "fine_minus_coarse_pp": 0.78125
+        },
+        {
+          "head_seed": 2132,
+          "planner_seed": 7702,
+          "selected_success_percent": 84.375,
+          "fine_minus_coarse_pp": -0.78125
+        },
+        {
+          "head_seed": 2133,
+          "planner_seed": 7701,
+          "selected_success_percent": 84.375,
+          "fine_minus_coarse_pp": 1.171875
+        },
+        {
+          "head_seed": 2133,
+          "planner_seed": 7702,
+          "selected_success_percent": 84.375,
+          "fine_minus_coarse_pp": -1.171875
+        }
+      ]
+    }
+  ],
+  "bootstrap_recomputed": false,
+  "new_control_training_API": 0,
+  "scope": "Registered descriptive candidate quality/error/ranking and fine improvement/harm summaries on complete fixed records. Pairwise concordance counts are descriptive, not independent trials; no new inferential claims."
+}

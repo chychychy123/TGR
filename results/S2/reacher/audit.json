@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "groups": 1280,
+  "target": 1280,
+  "candidate_rollouts": 11520,
+  "capture_rollouts": 1280,
+  "physical_steps": 263568,
+  "errors": [],
+  "source_records_sha256": "e9efff6cbdd30427d0f0609d0941b64f1cbf99e15298bb8e8631372cab003bc8",
+  "timestamp": 1792248269.158555,
+  "scope": "All nine independent25command candidate replays, paired initial state/goal/RGB, independent success formulas, actual command-prefix reconstruction and original-branch equality across guides/heads. Not original50command policy success."
+}

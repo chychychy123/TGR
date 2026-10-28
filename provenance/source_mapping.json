@@ -1,0 +1,43 @@
+{
+  "metric.py": {
+    "frozen_filename": "r4_model.py",
+    "frozen_sha256": "6f087437b1b0994268c2f9c4aff3bbe9a6eb5cb39ab7938cef11df9b999dd3eb",
+    "packaged_sha256": "05fef601f6ea9303ef86a148a81f6b57cd628da5bb1a78ce0f705c9558f83ba8",
+    "changes": "package-relative imports and AST-equivalent formatting only"
+  },
+  "baselines.py": {
+    "frozen_filename": "r5_solver.py",
+    "frozen_sha256": "8a09dd3b07b00bc4fc8951761875c5eb32665ece106b78ab251d83e19b401cca",
+    "packaged_sha256": "47553808d04f8dbf68635de0c30189a76e271efca8059c84c3196aabacdf3734",
+    "changes": "package-relative imports and AST-equivalent formatting only"
+  },
+  "coarse.py": {
+    "frozen_filename": "r6e_solver.py",
+    "frozen_sha256": "20e8658fce0e7f32e17d1fe121fdfd97db8911e3b29b5955ec05b1f70f90db7e",
+    "packaged_sha256": "49b69f72e2b2f6d62f255f56b078585475d1152f095efa32c46d2a37d5d826a9",
+    "changes": "package-relative imports and AST-equivalent formatting only"
+  },
+  "refinement.py": {
+    "frozen_filename": "r8_solver.py",
+    "frozen_sha256": "9ac2ab3d07f170812c9d776a013ef861987a73584cca1d71967e2662410ca157",
+    "packaged_sha256": "5e0b850d11127151d2daaddbaa25038f70d1897597fc11df9cb6c18123f62ca3",
+    "changes": "package-relative imports and AST-equivalent formatting only"
+  },
+  "ablations.py": {
+    "frozen_filename": "s1_ablation.py",
+    "frozen_sha256": "dbc3706d0772d82e6609fb7afdd8a60d70c338eadd30c2209fd3ba624200de6c",
+    "packaged_sha256": "449292d4c9b5372d99ecaf6093a9e5167ec9a280e4f503d9993f0912a3495504",
+    "changes": "package-relative imports and AST-equivalent formatting only"
+  },
+  "cube_adapter.py": {
+    "frozen_filename": "r5e_cube_adapter.py",
+    "frozen_sha256": "62b007cb88f05a80beaaa990d64a25c6cd7e42a1ac9b7635d87e652521efae04",
+    "packaged_sha256": "952e119e20bd5d9a627aa283261f82b8cfe50947d981e323952be486a2fcd633",
+    "changes": "package-relative imports and AST-equivalent formatting only"
+  },
+  "guide_objective.py": {
+    "source_sha256": "95e3bf5ebd441ac908eecc86b079baf1e215abda76c1df710dc7a1842acef394",
+    "extracted_function": "objective",
+    "changes": "function extracted without mathematical changes"
+  }
+}

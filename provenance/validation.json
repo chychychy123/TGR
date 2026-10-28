@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "source_date": "2026-10-28",
+  "solver_cpu_cases": 24,
+  "solves_per_case": 2,
+  "exact_action_candidate_cost_and_audit_parity": true,
+  "checkpoint_loads_cpu": 4,
+  "resource_banks": 4,
+  "guide_heads": 36,
+  "main_rows_verified": 38912,
+  "runtime_source_hashes": 5,
+  "new_physical_episodes": 0,
+  "new_training_steps": 0,
+  "new_API_calls": 0,
+  "full_portable_GPU_matrix_rerun": false,
+  "fresh_dependency_installation_tested": false,
+  "manuscript_files_included": false,
+  "credential_scan_passed": true,
+  "remote_access_scripts_included": false
+}

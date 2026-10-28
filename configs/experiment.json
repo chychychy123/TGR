@@ -1,0 +1,149 @@
+{
+  "datasets": [
+    "pusht",
+    "reacher",
+    "cube",
+    "tworoom"
+  ],
+  "head_seeds": [
+    2131,
+    2132,
+    2133
+  ],
+  "planning_seeds": [
+    7601,
+    7602
+  ],
+  "models": {
+    "pusht": {
+      "seed": 3072,
+      "epoch": 10,
+      "frozen": true,
+      "checkpoint_sha256": "0d8f25de712e588475025c3ae37dd898f26606a1cad14996a740baa25d3b5610"
+    },
+    "tworoom": {
+      "seed": 3072,
+      "epoch": 10,
+      "frozen": true,
+      "checkpoint_sha256": "ac1b624c17305a9003c01509b510c685f054a6a7be387e77866f7e20e9f3338e"
+    },
+    "reacher": {
+      "seed": 3072,
+      "epoch": 10,
+      "frozen": true,
+      "checkpoint_sha256": "248244800dfd7f47c73f80d38eaf95e6996df705732d9c402af78f188a103282"
+    },
+    "cube": {
+      "seed": 3072,
+      "epoch": 10,
+      "checkpoint_sha256": "4894366d017ec685f35a96e66c14579550637eb75baf7c19c62bb79178f01694",
+      "frozen": true
+    }
+  },
+  "data": {
+    "roots": 128,
+    "seeds": {
+      "pusht": 16910101,
+      "reacher": 16910201,
+      "cube": 16910301,
+      "tworoom": 16910401
+    },
+    "minimum_episode_length": 80,
+    "goal_offset": 25
+  },
+  "planning": {
+    "high_iterations": {
+      "pusht": 30,
+      "reacher": 10,
+      "cube": 10,
+      "tworoom": 10
+    },
+    "low_iterations": {
+      "pusht": 10,
+      "reacher": 4,
+      "cube": 4,
+      "tworoom": 4
+    },
+    "horizon_commands": 25,
+    "commit_commands": 25,
+    "max_episode_commands": 50,
+    "bank_size": 256,
+    "start_prefilter": 16,
+    "modes": 4,
+    "per_mode_candidates": 75,
+    "residual_std": 0.25,
+    "coarse_knots": 5,
+    "fine_knots": 25,
+    "original_candidates": 300,
+    "original_elites": 30,
+    "mode_elites": 8,
+    "main_final_candidates": 9,
+    "final_score": "Original frozen E0 only; no best-visited sample"
+  },
+  "high_methods": {
+    "lewm300": 1,
+    "lewm900": 1,
+    "retrieval600": 1,
+    "retrieval900": 1,
+    "r6_jev": 3,
+    "r6extra_jev": 3,
+    "refined_e0": 1,
+    "refined_self": 3,
+    "refined_temporal": 3,
+    "refined_jev": 3,
+    "icem900": 1,
+    "abl_context_jev": 3,
+    "abl_rank_none": 1,
+    "abl_direct_jev": 3,
+    "abl_retain_jev": 3
+  },
+  "low_methods": {
+    "lewm300": 1,
+    "lewm900": 1,
+    "retrieval900": 1,
+    "icem900": 1,
+    "refined_jev": 3
+  },
+  "ablations": {
+    "abl_context_jev": "Remove current-image nearest16 prefilter; rank all256 endpoints by the same frozen Jev head and take4. All subsequent planning unchanged.",
+    "abl_rank_none": "Keep nearest16 current-image prefilter; select4 uniformly without replacement using a separate seeded RNG instead of goal ranking. No learned head. Two planner seeds; no fictitious head replication.",
+    "abl_direct_jev": "Use25 residual knots from the first trajectory stage instead of5; run the same two T-iteration stages and retain the same9 final means. Same original branch, proposal population and scoring calls. Isolates coarse-to-fine parameterization against direct full-resolution search.",
+    "abl_retain_jev": "Compute exactly the full main method including all9 costs, then disallow the four coarse trajectory means at final selection. Keep original CEM mean plus four fine means. Same search cost; this isolates coarse-incumbent retention, not speed savings."
+  },
+  "matrix": {
+    "roots_per_environment": 128,
+    "planning_seeds": 2,
+    "high_configurations": 31,
+    "low_configurations": 7,
+    "configurations_per_environment": 38,
+    "episodes_per_environment": 9728,
+    "total_episodes": 38912,
+    "maximum_commands": 1945600,
+    "fixed_cohorts": {
+      "A": [
+        0,
+        63
+      ],
+      "B": [
+        64,
+        127
+      ]
+    }
+  },
+  "statistics": {
+    "cluster": "128 independent episode roots per environment; all heads/planners/budgets stay within root",
+    "bootstrap_replicates": 10000,
+    "bootstrap_seeds": {
+      "pusht": 16910991,
+      "reacher": 16920991,
+      "cube": 16930991,
+      "tworoom": 16940991
+    },
+    "primary_family": "14 same-high-budget R8-vs-control contrasts x4 environments=56; one-sided percentile bootstrap lower at alpha .05/56. Also report two-sided exploratory95% intervals and within-environment alpha .05/14.",
+    "secondary_family": "4 same-low-budget controls x4 environments=16; alpha .05/16. High-minus-low R8 is a separate four-environment descriptive contrast. No best-budget selection.",
+    "report": "Absolute root-cluster95% success intervals, all configurations/heads/planners, pre-fixed cohorts, paired gaps, wall/planning times, transition counts, executed commands, hardware load. Outcome-blind complete matrix before effects. No non-inferiority claim from CI crossing zero.",
+    "confirmation_scope": "Independent episode and planner-seed confirmation conditional on the same one frozen WM and historical learned heads. It is not independent WM training replication."
+  },
+  "source_protocol_sha256": "11a82c2ddb1eb0f97aa9011382572e76a4484d3c98ce964d5e7a5d4b98e2758f",
+  "max_episode_commands": 50
+}

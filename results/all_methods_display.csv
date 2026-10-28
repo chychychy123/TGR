@@ -1,0 +1,81 @@
+environment,method,method_label,budget,iterations,success_percent_display,ci95_low,ci95_high,cohort_A_percent_display,cohort_B_percent_display
+tworoom,abl_context_jev,No current prefilter,high,10,99,96.09375,100.0,99,99
+tworoom,abl_direct_jev,Direct fine search,high,10,96,92.44791666666667,98.828125,96,97
+tworoom,abl_rank_none,No goal ranking,high,10,98,95.703125,99.21875,97,99
+tworoom,abl_retain_jev,No coarse retention,high,10,97,93.61979166666666,99.21875,96,98
+tworoom,icem900,iCEM900,low,4,100,97.65625,100.0,100,99
+tworoom,icem900,iCEM900,high,10,100,98.828125,100.0,100,100
+tworoom,lewm300,CEM300,low,4,93,87.890625,96.484375,93,93
+tworoom,lewm300,CEM300,high,10,96,91.40625,98.4375,94,97
+tworoom,lewm900,CEM900,low,4,99,96.09375,100.0,99,99
+tworoom,lewm900,CEM900,high,10,99,95.703125,100.0,98,99
+tworoom,r6_jev,Coarse trajectory,high,10,98,94.79166666666666,99.34895833333334,97,99
+tworoom,r6extra_jev,Extra coarse search,high,10,97,93.75,99.21875,96,99
+tworoom,refined_e0,Geometric guide,high,10,97,93.75,99.21875,96,99
+tworoom,refined_jev,TGR,low,4,96,91.14583333333333,98.4375,94,97
+tworoom,refined_jev,TGR,high,10,98,94.140625,99.21875,96,99
+tworoom,refined_self,Self guide,high,10,98,94.01041666666666,99.34895833333333,98,97
+tworoom,refined_temporal,Temporal guide,high,10,97,92.96875,99.08854166666667,95,99
+tworoom,retrieval600,Retrieval600,high,10,99,96.875,99.609375,98,100
+tworoom,retrieval900,Retrieval900,low,4,97,93.75,98.828125,97,97
+tworoom,retrieval900,Retrieval900,high,10,99,96.875,99.609375,99,99
+pusht,abl_context_jev,No current prefilter,high,30,95,91.53645833333334,97.39583333333333,94,96
+pusht,abl_direct_jev,Direct fine search,high,30,93,89.453125,95.96354166666667,91,96
+pusht,abl_rank_none,No goal ranking,high,30,93,89.0625,95.703125,93,93
+pusht,abl_retain_jev,No coarse retention,high,30,94,89.84375,96.35416666666666,93,95
+pusht,icem900,iCEM900,low,10,77,70.703125,82.03125,78,76
+pusht,icem900,iCEM900,high,30,76,69.140625,81.640625,71,82
+pusht,lewm300,CEM300,low,10,90,83.984375,93.75,86,93
+pusht,lewm300,CEM300,high,30,92,86.328125,95.3125,88,95
+pusht,lewm900,CEM900,low,10,93,87.890625,96.09375,91,94
+pusht,lewm900,CEM900,high,30,93,89.0625,96.484375,91,96
+pusht,r6_jev,Coarse trajectory,high,30,93,89.453125,96.09375,91,96
+pusht,r6extra_jev,Extra coarse search,high,30,95,91.015625,97.00520833333334,96,94
+pusht,refined_e0,Geometric guide,high,30,96,92.578125,98.4375,95,97
+pusht,refined_jev,TGR,low,10,91,86.71875,94.27083333333334,89,94
+pusht,refined_jev,TGR,high,30,94,89.84375,96.35416666666666,93,95
+pusht,refined_self,Self guide,high,30,95,90.88541666666667,96.74479166666667,95,94
+pusht,refined_temporal,Temporal guide,high,30,95,91.27604166666667,97.265625,95,95
+pusht,retrieval600,Retrieval600,high,30,95,91.015625,97.65625,93,97
+pusht,retrieval900,Retrieval900,low,10,94,90.234375,96.875,91,97
+pusht,retrieval900,Retrieval900,high,30,96,91.796875,98.046875,96,96
+cube,abl_context_jev,No current prefilter,high,10,79,72.13541666666667,84.765625,84,74
+cube,abl_direct_jev,Direct fine search,high,10,81,74.21875,86.58854166666667,84,79
+cube,abl_rank_none,No goal ranking,high,10,79,72.265625,85.15625,84,75
+cube,abl_retain_jev,No coarse retention,high,10,83,76.30208333333333,88.15104166666667,84,82
+cube,icem900,iCEM900,low,4,75,67.1875,82.421875,81,70
+cube,icem900,iCEM900,high,10,75,66.796875,81.640625,79,70
+cube,lewm300,CEM300,low,4,67,58.59375,74.21875,75,58
+cube,lewm300,CEM300,high,10,70,61.71875,77.34375,80,60
+cube,lewm900,CEM900,low,4,73,64.84375,80.078125,80,66
+cube,lewm900,CEM900,high,10,74,66.40625,80.859375,79,69
+cube,r6_jev,Coarse trajectory,high,10,82,75.390625,87.63020833333333,83,81
+cube,r6extra_jev,Extra coarse search,high,10,83,76.5625,88.41145833333334,85,82
+cube,refined_e0,Geometric guide,high,10,83,76.5625,88.28125,86,80
+cube,refined_jev,TGR,low,4,83,76.43229166666666,87.890625,84,81
+cube,refined_jev,TGR,high,10,83,75.91145833333333,88.02083333333333,83,82
+cube,refined_self,Self guide,high,10,82,75.78125,87.109375,86,78
+cube,refined_temporal,Temporal guide,high,10,79,71.875,85.02604166666667,83,76
+cube,retrieval600,Retrieval600,high,10,74,66.40625,80.46875,79,69
+cube,retrieval900,Retrieval900,low,4,75,67.578125,81.640625,82,68
+cube,retrieval900,Retrieval900,high,10,79,71.484375,85.15625,83,75
+reacher,abl_context_jev,No current prefilter,high,10,80,74.73958333333334,85.02604166666667,83,78
+reacher,abl_direct_jev,Direct fine search,high,10,83,77.60416666666667,87.50325520833329,84,83
+reacher,abl_rank_none,No goal ranking,high,10,84,78.125,88.28125,83,85
+reacher,abl_retain_jev,No coarse retention,high,10,86,80.46875,89.19270833333334,89,82
+reacher,icem900,iCEM900,low,4,82,75.390625,86.71875,77,86
+reacher,icem900,iCEM900,high,10,84,78.90625,89.0625,81,88
+reacher,lewm300,CEM300,low,4,86,80.078125,89.84375,79,93
+reacher,lewm300,CEM300,high,10,86,80.46875,90.234375,86,86
+reacher,lewm900,CEM900,low,4,84,78.90625,88.671875,83,86
+reacher,lewm900,CEM900,high,10,88,82.421875,91.40625,84,91
+reacher,r6_jev,Coarse trajectory,high,10,84,77.99479166666666,87.76041666666666,87,80
+reacher,r6extra_jev,Extra coarse search,high,10,80,74.34895833333333,84.24479166666667,84,77
+reacher,refined_e0,Geometric guide,high,10,84,77.734375,88.28125,87,80
+reacher,refined_jev,TGR,low,4,85,79.94791666666666,88.80208333333334,85,85
+reacher,refined_jev,TGR,high,10,83,77.21354166666666,86.84895833333334,85,80
+reacher,refined_self,Self guide,high,10,86,81.38020833333333,90.234375,88,85
+reacher,refined_temporal,Temporal guide,high,10,85,79.94791666666666,88.54166666666667,88,82
+reacher,retrieval600,Retrieval600,high,10,81,75.390625,85.15625,82,80
+reacher,retrieval900,Retrieval900,low,4,79,72.65625,83.59375,75,82
+reacher,retrieval900,Retrieval900,high,10,83,76.953125,86.71875,83,83

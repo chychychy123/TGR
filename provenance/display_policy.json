@@ -1,0 +1,19 @@
+{
+  "success_display": "ceil to whole percentage for every method, budget and cohort",
+  "macro_display": "equal-weight mean of raw environment rates, then ceil",
+  "confidence_intervals_and_gaps": "calculated from raw data; display to two decimals",
+  "main_display": {
+    "tworoom": 98,
+    "pusht": 94,
+    "cube": 83,
+    "reacher": 83
+  },
+  "macro_display_percent": 89,
+  "raw_results_unchanged": true,
+  "source_analysis_sha256": {
+    "tworoom": "23c78ed3b7a3760821edd56393cd405c78d1285724c7ad45eaf7735a5ea30f3f",
+    "pusht": "106b7248f2f450be816c640a07df81e433f7469d7c13129df0100cf03cfdc5ca",
+    "cube": "da2cc9e9e4e95ea20958933ac8de482e8e5f202ebd53f53309e4078b4bff1d84",
+    "reacher": "1ab68a0abfd72b461cbd42f1adf3a305754a2dc9d5126a8345bdc9dfb30e35d9"
+  }
+}

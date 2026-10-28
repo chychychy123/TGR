@@ -1,0 +1,24 @@
+# Tested on Linux / Python 3.11. Install PyTorch separately (README).
+stable-worldmodel[train] @ git+https://github.com/galilai-group/stable-worldmodel.git@21446f1ede6d5284e981bd7b47f432b994e6d812
+stable-pretraining==0.1.8
+numpy==2.4.6
+gymnasium==1.4.0
+mujoco==3.11.0
+dm-control==1.0.44
+h5py==3.16.0
+hdf5plugin==7.1.0
+scikit-learn==1.9.1
+transformers==4.57.6
+ogbench==1.2.1
+pygame==2.6.1
+pymunk==7.3.1
+shapely==2.2.0
+pillow==12.3.0
+einops==0.8.2
+hydra-core==1.3.7
+omegaconf==2.3.1
+safetensors==0.8.0
+imageio==2.38.1
+imageio-ffmpeg==0.6.0
+opencv-python-headless==5.0.0.93
+huggingface-hub==0.36.2

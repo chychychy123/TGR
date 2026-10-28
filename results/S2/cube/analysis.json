@@ -1,0 +1,506 @@
+{
+  "status": "complete",
+  "table": [
+    {
+      "method": "refined_e0",
+      "roots": 64,
+      "metrics": {
+        "selected9": {
+          "mean": 0.859375,
+          "root95": [
+            0.78125,
+            0.9296875
+          ]
+        },
+        "selected5": {
+          "mean": 0.8203125,
+          "root95": [
+            0.734375,
+            0.8984375
+          ]
+        },
+        "original": {
+          "mean": 0.765625,
+          "root95": [
+            0.6640625,
+            0.859375
+          ]
+        },
+        "fine_selected": {
+          "mean": 0.859375,
+          "root95": [
+            0.78125,
+            0.9296875
+          ]
+        },
+        "fine_mean": {
+          "mean": 0.716796875,
+          "root95": [
+            0.630859375,
+            0.80078125
+          ]
+        },
+        "coarse_mean": {
+          "mean": 0.701171875,
+          "root95": [
+            0.6171875,
+            0.783203125
+          ]
+        },
+        "coverage1": {
+          "mean": 0.765625,
+          "root95": [
+            0.6640625,
+            0.859375
+          ]
+        },
+        "coverage5": {
+          "mean": 0.921875,
+          "root95": [
+            0.859375,
+            0.9765625
+          ]
+        },
+        "coverage9": {
+          "mean": 0.9296875,
+          "root95": [
+            0.8671875,
+            0.9765625
+          ]
+        },
+        "selection_miss": {
+          "mean": 0.0703125,
+          "root95": [
+            0.0234375,
+            0.125
+          ]
+        },
+        "selected_distance": {
+          "mean": 0.9439082428026957,
+          "root95": [
+            0.6880686796753076,
+            1.2525183561334567
+          ]
+        }
+      },
+      "head_planner": [
+        {
+          "head_seed": 0,
+          "planner_seed": 7701,
+          "selected_success": 0.859375
+        },
+        {
+          "head_seed": 0,
+          "planner_seed": 7702,
+          "selected_success": 0.859375
+        }
+      ]
+    },
+    {
+      "method": "refined_jev",
+      "roots": 64,
+      "metrics": {
+        "selected9": {
+          "mean": 0.8541666666666667,
+          "root95": [
+            0.78125,
+            0.9192708333333334
+          ]
+        },
+        "selected5": {
+          "mean": 0.8645833333333334,
+          "root95": [
+            0.7942708333333333,
+            0.9270833333333333
+          ]
+        },
+        "original": {
+          "mean": 0.765625,
+          "root95": [
+            0.6640625,
+            0.859375
+          ]
+        },
+        "fine_selected": {
+          "mean": 0.8541666666666667,
+          "root95": [
+            0.78125,
+            0.9192708333333334
+          ]
+        },
+        "fine_mean": {
+          "mean": 0.6959635416666667,
+          "root95": [
+            0.6145833333333333,
+            0.7766927083333333
+          ]
+        },
+        "coarse_mean": {
+          "mean": 0.68359375,
+          "root95": [
+            0.600244140625,
+            0.7662923177083332
+          ]
+        },
+        "coverage1": {
+          "mean": 0.765625,
+          "root95": [
+            0.6640625,
+            0.859375
+          ]
+        },
+        "coverage5": {
+          "mean": 0.9192708333333333,
+          "root95": [
+            0.8619791666666667,
+            0.96875
+          ]
+        },
+        "coverage9": {
+          "mean": 0.9348958333333333,
+          "root95": [
+            0.8828125,
+            0.9765625
+          ]
+        },
+        "selection_miss": {
+          "mean": 0.08072916666666667,
+          "root95": [
+            0.03645833333333333,
+            0.13541666666666666
+          ]
+        },
+        "selected_distance": {
+          "mean": 1.1454090166341442,
+          "root95": [
+            0.7932156740699261,
+            1.5831509024065953
+          ]
+        }
+      },
+      "head_planner": [
+        {
+          "head_seed": 2131,
+          "planner_seed": 7701,
+          "selected_success": 0.859375
+        },
+        {
+          "head_seed": 2131,
+          "planner_seed": 7702,
+          "selected_success": 0.859375
+        },
+        {
+          "head_seed": 2132,
+          "planner_seed": 7701,
+          "selected_success": 0.84375
+        },
+        {
+          "head_seed": 2132,
+          "planner_seed": 7702,
+          "selected_success": 0.84375
+        },
+        {
+          "head_seed": 2133,
+          "planner_seed": 7701,
+          "selected_success": 0.875
+        },
+        {
+          "head_seed": 2133,
+          "planner_seed": 7702,
+          "selected_success": 0.84375
+        }
+      ]
+    },
+    {
+      "method": "refined_self",
+      "roots": 64,
+      "metrics": {
+        "selected9": {
+          "mean": 0.8333333333333334,
+          "root95": [
+            0.7526041666666667,
+            0.90625
+          ]
+        },
+        "selected5": {
+          "mean": 0.84375,
+          "root95": [
+            0.7682291666666667,
+            0.9114583333333334
+          ]
+        },
+        "original": {
+          "mean": 0.765625,
+          "root95": [
+            0.6640625,
+            0.859375
+          ]
+        },
+        "fine_selected": {
+          "mean": 0.8333333333333334,
+          "root95": [
+            0.7526041666666667,
+            0.90625
+          ]
+        },
+        "fine_mean": {
+          "mean": 0.7005208333333334,
+          "root95": [
+            0.6184895833333333,
+            0.78125
+          ]
+        },
+        "coarse_mean": {
+          "mean": 0.6842447916666667,
+          "root95": [
+            0.6015625,
+            0.765625
+          ]
+        },
+        "coverage1": {
+          "mean": 0.765625,
+          "root95": [
+            0.6640625,
+            0.859375
+          ]
+        },
+        "coverage5": {
+          "mean": 0.921875,
+          "root95": [
+            0.859375,
+            0.9739583333333333
+          ]
+        },
+        "coverage9": {
+          "mean": 0.9322916666666667,
+          "root95": [
+            0.8723958333333333,
+            0.9817708333333333
+          ]
+        },
+        "selection_miss": {
+          "mean": 0.09895833333333333,
+          "root95": [
+            0.046875,
+            0.15885416666666669
+          ]
+        },
+        "selected_distance": {
+          "mean": 1.0945119038391284,
+          "root95": [
+            0.7832715125749696,
+            1.452082528767708
+          ]
+        }
+      },
+      "head_planner": [
+        {
+          "head_seed": 2131,
+          "planner_seed": 7701,
+          "selected_success": 0.828125
+        },
+        {
+          "head_seed": 2131,
+          "planner_seed": 7702,
+          "selected_success": 0.8125
+        },
+        {
+          "head_seed": 2132,
+          "planner_seed": 7701,
+          "selected_success": 0.828125
+        },
+        {
+          "head_seed": 2132,
+          "planner_seed": 7702,
+          "selected_success": 0.84375
+        },
+        {
+          "head_seed": 2133,
+          "planner_seed": 7701,
+          "selected_success": 0.84375
+        },
+        {
+          "head_seed": 2133,
+          "planner_seed": 7702,
+          "selected_success": 0.84375
+        }
+      ]
+    },
+    {
+      "method": "refined_temporal",
+      "roots": 64,
+      "metrics": {
+        "selected9": {
+          "mean": 0.8489583333333333,
+          "root95": [
+            0.7682291666666666,
+            0.9192708333333334
+          ]
+        },
+        "selected5": {
+          "mean": 0.8776041666666666,
+          "root95": [
+            0.8020833333333333,
+            0.9453125
+          ]
+        },
+        "original": {
+          "mean": 0.765625,
+          "root95": [
+            0.6640625,
+            0.859375
+          ]
+        },
+        "fine_selected": {
+          "mean": 0.8489583333333333,
+          "root95": [
+            0.7682291666666666,
+            0.9192708333333334
+          ]
+        },
+        "fine_mean": {
+          "mean": 0.6953125,
+          "root95": [
+            0.615234375,
+            0.771484375
+          ]
+        },
+        "coarse_mean": {
+          "mean": 0.6940104166666667,
+          "root95": [
+            0.611328125,
+            0.7721354166666667
+          ]
+        },
+        "coverage1": {
+          "mean": 0.765625,
+          "root95": [
+            0.6640625,
+            0.859375
+          ]
+        },
+        "coverage5": {
+          "mean": 0.9270833333333333,
+          "root95": [
+            0.8619791666666667,
+            0.9765625
+          ]
+        },
+        "coverage9": {
+          "mean": 0.9348958333333333,
+          "root95": [
+            0.8723958333333333,
+            0.984375
+          ]
+        },
+        "selection_miss": {
+          "mean": 0.0859375,
+          "root95": [
+            0.03645833333333333,
+            0.14583333333333331
+          ]
+        },
+        "selected_distance": {
+          "mean": 1.1263121073721187,
+          "root95": [
+            0.7933925800353502,
+            1.5239575201590732
+          ]
+        }
+      },
+      "head_planner": [
+        {
+          "head_seed": 2131,
+          "planner_seed": 7701,
+          "selected_success": 0.84375
+        },
+        {
+          "head_seed": 2131,
+          "planner_seed": 7702,
+          "selected_success": 0.875
+        },
+        {
+          "head_seed": 2132,
+          "planner_seed": 7701,
+          "selected_success": 0.84375
+        },
+        {
+          "head_seed": 2132,
+          "planner_seed": 7702,
+          "selected_success": 0.84375
+        },
+        {
+          "head_seed": 2133,
+          "planner_seed": 7701,
+          "selected_success": 0.84375
+        },
+        {
+          "head_seed": 2133,
+          "planner_seed": 7702,
+          "selected_success": 0.84375
+        }
+      ]
+    }
+  ],
+  "contrasts": [
+    {
+      "contrast": "selected9_minus_original",
+      "gap_pp": 8.854166666666668,
+      "root95": [
+        0.7812500000000002,
+        17.1875
+      ],
+      "family24_lower": -2.343749999999999
+    },
+    {
+      "contrast": "selected9_minus_selected5",
+      "gap_pp": -1.0416666666666665,
+      "root95": [
+        -6.510416666666666,
+        3.90625
+      ],
+      "family24_lower": -9.375
+    },
+    {
+      "contrast": "matched_fine_minus_coarse",
+      "gap_pp": 1.236979166666667,
+      "root95": [
+        -1.1067708333333326,
+        3.385416666666667
+      ],
+      "family24_lower": -2.2135416666666665
+    },
+    {
+      "contrast": "jev_minus_e0_selected9",
+      "gap_pp": -0.5208333333333329,
+      "root95": [
+        -5.729166666666668,
+        4.947916666666667
+      ],
+      "family24_lower": -8.59375
+    },
+    {
+      "contrast": "jev_minus_self_selected9",
+      "gap_pp": 2.0833333333333335,
+      "root95": [
+        -2.6041666666666665,
+        7.03125
+      ],
+      "family24_lower": -4.427083333333334
+    },
+    {
+      "contrast": "jev_minus_temporal_selected9",
+      "gap_pp": 0.5208333333333333,
+      "root95": [
+        -4.947916666666665,
+        6.250000000000002
+      ],
+      "family24_lower": -7.291666666666666
+    }
+  ],
+  "groups": 1280,
+  "physical_steps": 147669,
+  "bootstrap": 10000,
+  "limits": "Counterfactual first-plan25-command physical diagnostics, NOT original50-command episode scores. Keep R8/S1 success tables immutable. Mechanism is newly investigated after seeing S1; not a retroactively preregistered main claim. No claim across independent WM training seeds.",
+  "timestamp": 1792251466.5723207
+}
