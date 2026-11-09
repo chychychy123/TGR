@@ -4,7 +4,7 @@
 
 **From coherent motion to local corrections in visual planning**
 
-[Overview](#overview) · [Installation](#installation) · [Data and models](#data-and-models) · [Evaluation](#evaluation) · [Results](#results) · [中文说明](docs/README.zh-CN.md)
+Overview · Installation · Data and models · Evaluation · Results · 中文说明
 
 </div>
 
@@ -25,7 +25,7 @@ TGR operates with a **frozen visual world model**. An offline endpoint guide ran
 3. **Refine:** lift each coarse residual into command-level coordinates and continue the search.
 4. **Retain and select:** score the independent, coarse, and fine final means with the same world-model goal objective, then execute the selected plan.
 
-The implementation is in [`src/tgr`](src/tgr). The framework is also available as a [vector PDF](assets/framework.pdf). This source distribution contains code, resources, and experiment records; no manuscript or claimed venue acceptance is included.
+The implementation is in `src/tgr`. The framework is also available as a vector PDF. This source distribution contains code, resources, and experiment records; no manuscript or claimed venue acceptance is included.
 
 ## Installation
 
@@ -46,7 +46,7 @@ python scripts/verify_release.py
 python tests/test_solver_parity.py
 ```
 
-`requirements.txt` pins the runtime to commit `21446f1ede6d5284e981bd7b47f432b994e6d812`. The complete observed package inventory is in [`provenance/runtime-lock.txt`](provenance/runtime-lock.txt). Runtime checks compare the installed planning source hashes with the recorded versions. Linux/EGL evaluation is the supported configuration; native Windows simulator evaluation has not been validated.
+`requirements.txt` pins the runtime to commit `21446f1ede6d5284e981bd7b47f432b994e6d812`. The complete observed package inventory is in `provenance/runtime-lock.txt`. Runtime checks compare the installed planning source hashes with the recorded versions. Linux/EGL evaluation is the supported configuration; native Windows simulator evaluation has not been validated.
 
 The release/result verification uses only the Python standard library. The solver parity test runs on CPU with a synthetic cost and does not launch a simulator.
 
@@ -59,7 +59,7 @@ The release/result verification uses only the Python standard library. The solve
 - Offline train/validation latent features and numeric preference targets; no API access is required.
 - The exact 128 evaluation roots per environment, complete per-run result rows, fixed confidence intervals, and evidence hashes.
 
-**External inputs:** the original HDF5 datasets and the four matching world-model checkpoints. Dataset preparation and checkpoint compatibility are described in [Reproducibility](docs/REPRODUCIBILITY.md). The companion `TGR_world_model_checkpoints.zip`, when supplied with this local delivery, contains the exact checkpoint files; unpack it into this repository. These files are kept separate from the source archive.
+**External inputs:** the original HDF5 datasets and the four matching world-model checkpoints. Dataset preparation and checkpoint compatibility are described in Reproducibility. The companion `TGR_world_model_checkpoints.zip`, when supplied with this local delivery, contains the exact checkpoint files; unpack it into this repository. These files are kept separate from the source archive.
 
 ```text
 tgr/
@@ -77,7 +77,7 @@ tgr/
     └── <environment>/
 ```
 
-World-model checkpoint identities are recorded in [`configs/experiment.json`](configs/experiment.json). Public checkpoints with a different SHA are not interchangeable with the models behind the reported table. Guide refitting is optional; use the bundled heads to reproduce the recorded configuration.
+World-model checkpoint identities are recorded in `configs/experiment.json`. Public checkpoints with a different SHA are not interchangeable with the models behind the reported table. Guide refitting is optional; use the bundled heads to reproduce the recorded configuration.
 
 ## Evaluation
 
@@ -129,7 +129,7 @@ python scripts/train_guide.py \
   --device cpu --output runs/guide_refit/pusht_2131.pt
 ```
 
-This fits the fixed objective on the included latent features and numeric targets. It makes **zero online model/API requests**. A refitted head is a new artifact and does not automatically replace a bundled evaluation head. Details are in [the code map](docs/CODE_MAP.md).
+This fits the fixed objective on the included latent features and numeric targets. It makes **zero online model/API requests**. A refitted head is a new artifact and does not automatically replace a bundled evaluation head. Details are in the code map.
 
 ## Results
 
@@ -143,9 +143,9 @@ Primary results below come from the complete **S1 independent-episode evaluation
 | Reacher | **83** | [77.21, 86.85] |
 | **Macro average** | **89** | — |
 
-The full evaluation contains **38,912 episodes**, including matched planners, four component ablations, alternative guides, and two fixed iteration budgets. The manuscript-aligned display is available in [`results/all_methods_display.csv`](results/all_methods_display.csv); [`results/all_methods.csv`](results/all_methods.csv) retains original precision. Complete fixed statistics and per-run rows are under [`results/S1`](results/S1). [Results and settings](docs/RESULTS.md) contains the matched comparison tables and statistical interpretation. Actual resource use is retained in these files.
+The full evaluation contains **38,912 episodes**, including matched planners, four component ablations, alternative guides, and two fixed iteration budgets. The manuscript-aligned display is available in `results/all_methods_display.csv`; `results/all_methods.csv` retains original precision. Complete fixed statistics and per-run rows are under `results/S1`. Results and settings contains the matched comparison tables and statistical interpretation. Actual resource use is retained in these files.
 
-Separate first-plan mechanism experiments are included under [`results/S2`](results/S2). They execute each candidate from the same initial condition for up to 25 commands; their rates are separate from the 50-command main evaluation.
+Separate first-plan mechanism experiments are included under `results/S2`. They execute each candidate from the same initial condition for up to 25 commands; their rates are separate from the 50-command main evaluation.
 
 ## Repository structure
 
